@@ -25,7 +25,9 @@ def qr_reader(image):
         im = img[:,:,::-1]
         plt.imshow(im)
         plt.show
-
+    result = qr.data.decode('utf-8')
+    return result
+    
 def dm_reader(image):
     global error 
     img = cv.imread(image)
@@ -48,7 +50,9 @@ def dm_reader(image):
         im = img[:,:,::-1]
         plt.imshow(im)
         plt.show
-
+    result = dm.data.decode('utf-8')
+    return result
+    
 if __name__ == "__main__":
     qr_reader("qr.png")
     dm_reader("dm.png")
