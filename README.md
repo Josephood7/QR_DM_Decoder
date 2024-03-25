@@ -4,8 +4,8 @@ This file demonstrate how to create **QR code** and **Data Matrix** decoders usi
 
 ## Setup
 
-*pyzbar* is a bult-in QR code decoding package for Python  
-*pylibdmtx* is a bult-in Data Matrix decoding package for Python
+*pyzbar* is a QR code decoding package for Python  
+*pylibdmtx* is a Data Matrix decoding package for Python
 
 Linux
 ```bash
